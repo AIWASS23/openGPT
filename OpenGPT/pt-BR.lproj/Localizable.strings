@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  OpenGPT
+
+  Created by Marcelo de Araújo on 12/01/2023.
+  
+*/
+
+"General.Reload" = "Recarregar";
+"General.Quit" = "Desistir";
+"General.OpenInBrowser" = "Abra no browser";
+"General.ViewOnGithub" = "Olhe no Github";
+
+"Error.NoInternet.Message" = "Não conectado à rede";

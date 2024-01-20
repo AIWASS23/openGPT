@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DE20C3B2948E2DE00BD49F3 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE20C3A2948E2DE00BD49F3 /* Padding.swift */; };
+		8DE20C40294917F900BD49F3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DE20C42294917F900BD49F3 /* Localizable.strings */; };
+		8DF6CE072947C64400EBAD00 /* OpenGPT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF6CE062947C64400EBAD00 /* OpenGPT.swift */; };
+		8DF6CE092947C64400EBAD00 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF6CE082947C64400EBAD00 /* ChatView.swift */; };
+		8DF6CE0B2947C64500EBAD00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF6CE0A2947C64500EBAD00 /* Assets.xcassets */; };
+		8DF6CE0F2947C64500EBAD00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF6CE0E2947C64500EBAD00 /* Preview Assets.xcassets */; };
+		8DF6CE162947C68500EBAD00 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF6CE152947C68500EBAD00 /* WebView.swift */; };
+		8DF6CE182947C69100EBAD00 /* ChatConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF6CE172947C69100EBAD00 /* ChatConfiguration.swift */; };
+		8DF6CE1B2948B8C700EBAD00 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF6CE1A2948B8C700EBAD00 /* Reachability.swift */; };
+		8DF6CE1D2948DC6C00EBAD00 /* ChatToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF6CE1C2948DC6C00EBAD00 /* ChatToolbar.swift */; };
+		8DF6CE1F2948DDB300EBAD00 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF6CE1E2948DDB300EBAD00 /* ChatViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14AAF5D929970DF4009B682C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		14AAF5DA29970E2D009B682C /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		14AAF5DB29970E45009B682C /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		14AAF5DC29970E4A009B682C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8DE20C3A2948E2DE00BD49F3 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
+		8DE20C41294917F900BD49F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8DE20C43294917FD00BD49F3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8DF6CE032947C64400EBAD00 /* OpenGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF6CE062947C64400EBAD00 /* OpenGPT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGPT.swift; sourceTree = "<group>"; };
+		8DF6CE082947C64400EBAD00 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		8DF6CE0A2947C64500EBAD00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DF6CE0C2947C64500EBAD00 /* OpenGPT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenGPT.entitlements; sourceTree = "<group>"; };
+		8DF6CE0E2947C64500EBAD00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DF6CE152947C68500EBAD00 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		8DF6CE172947C69100EBAD00 /* ChatConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatConfiguration.swift; sourceTree = "<group>"; };
+		8DF6CE192947DA3200EBAD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DF6CE1A2948B8C700EBAD00 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		8DF6CE1C2948DC6C00EBAD00 /* ChatToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatToolbar.swift; sourceTree = "<group>"; };
+		8DF6CE1E2948DDB300EBAD00 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DF6CE002947C64400EBAD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DF6CDFA2947C64400EBAD00 = {
+			isa = PBXGroup;
+			children = (
+				8DF6CE052947C64400EBAD00 /* OpenGPT */,
+				8DF6CE042947C64400EBAD00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DF6CE042947C64400EBAD00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DF6CE032947C64400EBAD00 /* OpenGPT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DF6CE052947C64400EBAD00 /* OpenGPT */ = {
+			isa = PBXGroup;
+			children = (
+				8DF6CE192947DA3200EBAD00 /* Info.plist */,
+				8DF6CE0C2947C64500EBAD00 /* OpenGPT.entitlements */,
+				8DE20C42294917F900BD49F3 /* Localizable.strings */,
+				8DF6CE212948DE3400EBAD00 /* Features */,
+				8DF6CE202948DE2A00EBAD00 /* Utilities */,
+				8DF6CE222948DE4200EBAD00 /* UI */,
+				8DF6CE0D2947C64500EBAD00 /* Preview Content */,
+			);
+			path = OpenGPT;
+			sourceTree = "<group>";
+		};
+		8DF6CE0D2947C64500EBAD00 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8DF6CE0E2947C64500EBAD00 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DF6CE202948DE2A00EBAD00 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8DF6CE1A2948B8C700EBAD00 /* Reachability.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8DF6CE212948DE3400EBAD00 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				8DF6CE062947C64400EBAD00 /* OpenGPT.swift */,
+				8DF6CE252948DF4500EBAD00 /* Chat */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		8DF6CE222948DE4200EBAD00 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8DF6CE0A2947C64500EBAD00 /* Assets.xcassets */,
+				8DF6CE152947C68500EBAD00 /* WebView.swift */,
+				8DE20C3A2948E2DE00BD49F3 /* Padding.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8DF6CE252948DF4500EBAD00 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				8DF6CE172947C69100EBAD00 /* ChatConfiguration.swift */,
+				8DF6CE1E2948DDB300EBAD00 /* ChatViewModel.swift */,
+				8DF6CE082947C64400EBAD00 /* ChatView.swift */,
+				8DF6CE1C2948DC6C00EBAD00 /* ChatToolbar.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DF6CE022947C64400EBAD00 /* OpenGPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF6CE122947C64500EBAD00 /* Build configuration list for PBXNativeTarget "OpenGPT" */;
+			buildPhases = (
+				8DF6CDFF2947C64400EBAD00 /* Sources */,
+				8DF6CE002947C64400EBAD00 /* Frameworks */,
+				8DF6CE012947C64400EBAD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGPT;
+			productName = ChatApp;
+			productReference = 8DF6CE032947C64400EBAD00 /* OpenGPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DF6CDFB2947C64400EBAD00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8DF6CE022947C64400EBAD00 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 8DF6CDFE2947C64400EBAD00 /* Build configuration list for PBXProject "OpenGPT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				"zh-Hans",
+				"pt-BR",
+				nl,
+				ar,
+			);
+			mainGroup = 8DF6CDFA2947C64400EBAD00;
+			productRefGroup = 8DF6CE042947C64400EBAD00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DF6CE022947C64400EBAD00 /* OpenGPT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DF6CE012947C64400EBAD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF6CE0F2947C64500EBAD00 /* Preview Assets.xcassets in Resources */,
+				8DE20C40294917F900BD49F3 /* Localizable.strings in Resources */,
+				8DF6CE0B2947C64500EBAD00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DF6CDFF2947C64400EBAD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF6CE162947C68500EBAD00 /* WebView.swift in Sources */,
+				8DF6CE1F2948DDB300EBAD00 /* ChatViewModel.swift in Sources */,
+				8DF6CE092947C64400EBAD00 /* ChatView.swift in Sources */,
+				8DF6CE182947C69100EBAD00 /* ChatConfiguration.swift in Sources */,
+				8DF6CE1B2948B8C700EBAD00 /* Reachability.swift in Sources */,
+				8DF6CE072947C64400EBAD00 /* OpenGPT.swift in Sources */,
+				8DF6CE1D2948DC6C00EBAD00 /* ChatToolbar.swift in Sources */,
+				8DE20C3B2948E2DE00BD49F3 /* Padding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8DE20C42294917F900BD49F3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DE20C41294917F900BD49F3 /* en */,
+				8DE20C43294917FD00BD49F3 /* es */,
+				14AAF5D929970DF4009B682C /* zh-Hans */,
+				14AAF5DA29970E2D009B682C /* pt-BR */,
+				14AAF5DB29970E45009B682C /* nl */,
+				14AAF5DC29970E4A009B682C /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DF6CE102947C64500EBAD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DF6CE112947C64500EBAD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8DF6CE132947C64500EBAD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = OpenGPT/OpenGPT.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P3G4Y9CSP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenGPT/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OpenGPT;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_LSUIElement = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marcelo-de-Arau-jo.OpenGPT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DF6CE142947C64500EBAD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = OpenGPT/OpenGPT.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P3G4Y9CSP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenGPT/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OpenGPT;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_LSUIElement = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marcelo-de-Arau-jo.OpenGPT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DF6CDFE2947C64400EBAD00 /* Build configuration list for PBXProject "OpenGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF6CE102947C64500EBAD00 /* Debug */,
+				8DF6CE112947C64500EBAD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DF6CE122947C64500EBAD00 /* Build configuration list for PBXNativeTarget "OpenGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF6CE132947C64500EBAD00 /* Debug */,
+				8DF6CE142947C64500EBAD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DF6CDFB2947C64400EBAD00 /* Project object */;
+}
